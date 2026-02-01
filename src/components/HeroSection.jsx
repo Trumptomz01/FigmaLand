@@ -17,7 +17,7 @@ const HeroSection = () => {
 
    return (
       <section 
-         className='relative w-full mb-10 border-red-500 border bg-slate-900 text-white overflow-hidden pb-32'
+         className='relative w-full mb-10  bg-slate-900 text-white overflow-hidden pb-32'
          style={{
             clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)'
          }}

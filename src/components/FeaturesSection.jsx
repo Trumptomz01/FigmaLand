@@ -53,7 +53,7 @@ const FeaturesSection = () => {
          <div className='block lg:flex gap-4 m-13'>
             {features.map((feat) =>(
                
-               <div key={feat.id} className='flex-1 aspect-square mt-8 p-4 border flex flex-col justify-center text-center items-center'>
+               <div key={feat.id} className='flex-1 aspect-square mt-8 p-4 flex flex-col justify-center text-center items-center'>
                   <feat.icon size={50} className="mx-auto mb-4 text-[#2091F9]"/>
                   <h2 className='text-2xl font-bold text-center mb-2'>{feat.title}</h2>
                   <p className='text-[#374754] text-lg'>{feat.description}</p>
@@ -63,7 +63,7 @@ const FeaturesSection = () => {
 
           {/* Desktop view image */}
 
-         <div className="relative rounded-lg border shadow-2xl w-[50%] justify-center hidden md:flex mb-10">
+         <div className="relative rounded-lg shadow-2xl w-[50%] justify-center hidden md:flex mb-10">
             <img className="object-cover rounded-lg w-full h-full" 
                src={DesktopImg} 
                alt="desktop-img" 
