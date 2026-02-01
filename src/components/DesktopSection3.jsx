@@ -14,7 +14,7 @@ const DesktopSection3 = () => {
                   <p className='text-md'>Most calendars are <br className='md:hidden '/> designed for teams.</p>
                   <p className='hidden md:block'>Slate is designed for freelancers</p>
                </div>
-               <button className="bg-[#2196f3] hover:bg-blue-600 text-white text-lg font-medium py-3 px-12 rounded-full transition-all">
+               <button className="bg-[#2196f3] hover:bg-blue-500 text-white text-lg font-medium py-3 px-12 rounded-full transition-all">
                   Try For Free
                </button>
             </div>

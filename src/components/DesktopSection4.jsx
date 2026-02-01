@@ -62,7 +62,7 @@ const DesktopSection4 = () => {
             />
             <button
                type="submit"
-               className="rounded-full px-6 py-3 text-sm font-semibold bg-blue-500 text-white hover:bg-blue-600 transition"
+               className="rounded-full px-6 py-3 text-sm font-semibold bg-[#2091F9] text-white hover:bg-blue-600 transition"
             >
                Subscribe
             </button>
