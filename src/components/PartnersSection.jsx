@@ -22,9 +22,9 @@ const PartnersSection = () => {
 
    return (
       <section className='flex flex-col justify-center space-y-6 m-10 items-center'>
-         <div className='text-center flex flex-col space-y-5 p-2'>
-            <h2 className='text-4xl text=[#252B42]'>Partners</h2>
-            <p className='text-[16px] md:text-lg text-[#374754]'>Most calendars are designed for teams. <br />Slate is designed for freelancers</p>
+         <div className='text-center flex flex-col gap-1.75 p-2'>
+            <h2 className='text-[48px] text=[#252B42]  leading-13.75 tracking-[0.2px]'>Partners</h2>
+            <p className='text-[28px] md:text-lg tracking-[0.2px] leading-10 text-[#374754]'>Most calendars are designed for teams. <br />Slate is designed for freelancers</p>
          </div>
          {/* <div className='max-w-2xl md:max-w-3xl flex justify-center items-center'>
             mobile partners image

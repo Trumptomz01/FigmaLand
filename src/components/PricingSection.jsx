@@ -29,12 +29,12 @@ const PricingSection = () => {
   ];
 
   return ( 
-   <section className="bg-[#252b42] min-h-screen py-20 px-4 font-sans text-white">
+   <section className="bg-[#252b42] py-20 px-4 font-sans text-white">
       {/* Header */}
       <div className="text-center mb-16">
-        <h2 className="text-5xl font-medium mb-6">Pricing</h2>
+        <h2 className="text-5xl leading-12 tracking-[0.2px] mb-6">Pricing</h2>
         <div>
-            <p className="text-md md:text-xl max-w-md mx-auto leading-relaxed">Most calendars are designed for teams. </p>
+            <p className="text-[28px] leading-10 md:text-xl max-w-md mx-auto tracking-[0.2px]">Most calendars are designed for teams. </p>
             <p className=" hidden md:block">Slate is designed for freelancers</p>
 
         </div>

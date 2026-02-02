@@ -1,7 +1,7 @@
 import landingImg from '../assets/landingImg.jpg';
 import logoLight from '../assets/logo-light.png';
 import { Link } from 'react-router-dom';
-import { SiX, SiLinkedin,SiFacebook,} from "react-icons/si";
+import { FaTwitter, FaLinkedin, FaFacebookSquare,} from "react-icons/fa";
 
 
 const HeroSection = () => {
@@ -17,9 +17,10 @@ const HeroSection = () => {
 
    return (
       <section 
-         className='relative w-full mb-10  bg-slate-900 text-white overflow-hidden pb-32'
+         className='relative  h-232.5 w-full mb-10  bg-slate-900 text-white overflow-hidden pb-32'
          style={{
             clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)'
+
          }}
       >
          {/* Background Image & Overlay */}
@@ -33,29 +34,29 @@ const HeroSection = () => {
          </div>
 
          {/* Navbar Area */}
-         <nav className="flex items-center justify-between px-6 py-8 md:px-35">
-            <div className="hidden md:flex space-x-6 text-sm">
+         <nav className="flex items-center m-auto max-w-4xl 2xl:w-[50%] justify-center gap-15 py-14 px-6 ">
+            <div className="hidden lg:flex space-x-6 ">
                {navLinks.map((link) => (
                   <Link
                      key={link.id}
                      to={link.to}
-                     className="hover:text-gray-400 transition"
+                     className="hover:text-gray-400 text-[15px] transition"
                   >
                      {link.name}
                   </Link>
                ))}
             </div>
             
-            <div className="text-md font-bold tracking-widest"><img className='w-35' src={logoLight} alt="logo" /></div>
+            <div className="text-md font-bold tracking-widest"><img className='w-37 h-7' src={logoLight} alt="logo" /></div>
 
-            <div className="hidden md:flex space-x-4">
+            <div className="hidden lg:flex ml-auto gap-11">
                {/* Social icons placeholder */}
-               <div><Link to="/"> <SiX size={25} /></Link></div>
-               <div><Link to="/"> <SiLinkedin size={25} /></Link></div>
-               <div><Link to="/"> <SiFacebook size={25}/> </Link></div>
+               <div><Link  to="/"> <FaTwitter className="w-[33.31px] h-[27.06px]"/></Link></div>
+               <div><Link  to="/"> <FaLinkedin className="w-[32.02px] h-[32.02px]"/></Link></div>
+               <div><Link  to="/"> <FaFacebookSquare className="w-[32.02px] h-[32.02px]"/></Link></div>
             </div>
 
-            <div className="block ml-auto md:hidden active:scale-90 text-end hover:scale-105 transition-all cursor-pointer space-y-2">
+            <div className="block ml-auto lg:hidden active:scale-90 text-end hover:scale-105 transition-all cursor-pointer space-y-2">
                <div className="border w-8.5 ml-auto border-neutral-700 dark:border-neutral-300 "></div>
                <div className="border w-7 ml-auto border-neutral-700 dark:border-neutral-300 "></div>
                <div className="border w-5 ml-auto border-neutral-700 dark:border-neutral-300 "></div>
@@ -64,13 +65,13 @@ const HeroSection = () => {
 
          {/* Main Content */}
          <div className="flex flex-col items-center justify-center pt-24 pb-20 text-center px-4">
-            <h1 className="max-w-4xl text-5xl md:text-6xl font-extrabold leading-tight">
+            <h1 className="max-w-4xl leading-21 text-5xl text-[74px] font-extrabold tracking-[0.2px]">
                The best products start with Figma
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-gray-300">
+            <p className="mt-6 leading-10 tracking-[0.2px] max-w-xl text-[28px] text-gray-300">
                Most calendars are designed for teams. Slate is designed for freelancers.
             </p>
-            <button className="mt-10 rounded-full bg-[#2091F9] px-10 py-4 text-white font-bold hover:brightness-110 transition shadow-xl">
+            <button className="mt-10 rounded-full bg-[#2091F9] px-10 py-4 text-xl leading-5 tracking-[0.2px] text-white font-bold hover:brightness-110 transition shadow-xl">
                Try For Free
             </button>
          </div>

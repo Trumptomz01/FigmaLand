@@ -3,18 +3,18 @@ import sec3Img  from "..//assets/sec3Img.png";
 
 const DesktopSection3 = () => {
   return (
-      <section className='flex mb-10 justify-center items-center m-auto p-5 '>
+      <section className='flex mb-10 mt-7 justify-center items-center m-auto p-5 '>
          <div className='flex flex-col lg:flex-row max-w-4xl gap-15'>
              {/* letf side */}
             <div className="flex-1 max-w-xl text-center md:text-left">
-               <h2 className="text-[35px] md:text-[52px] font-semibold text-[#252B42] mb-6">
+               <h2 className="text-[35px] md:text-[52px] leading-13.75 tracking-[0.2px] text-[#252B42] mb-6">
                   Fastest way to organize
                </h2>
-               <div className="text-[20px] text-[#374754] mb-10 leading-relaxed">
+               <div className="text-[20px] text-[#374754] mb-10 leading-10 tracking-[0.2px]">
                   <p className='text-md'>Most calendars are <br className='md:hidden '/> designed for teams.</p>
                   <p className='hidden md:block'>Slate is designed for freelancers</p>
                </div>
-               <button className="bg-[#2196f3] hover:bg-blue-500 text-white text-lg font-medium py-3 px-12 rounded-full transition-all">
+               <button className="bg-[#2196f3] hover:bg-blue-500 font-bold text-white text-xl leading-7 tracking-[0.1px] py-3 px-12 rounded-[35px] transition-all">
                   Try For Free
                </button>
             </div>

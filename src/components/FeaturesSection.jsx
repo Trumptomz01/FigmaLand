@@ -29,11 +29,11 @@ const FeaturesSection = () => {
   return (
       <section className='flex space-y-8 flex-col p-3 md: justify-center items-center '>
          <div className=''>
-            <h1 className='text-[48px]'>Features</h1>
+            <h1 className='text-[48px] tracking-[0.2px] leading-13.75'>Features</h1>
          </div>
 
-         <div className='mb-6 text-center text-[#374754] text-xl'>
-            <p>Most calendars are designed for teams.</p>
+         <div className='mb-6 tracking-[0.2px] leading-10 text-center text-[#374754] text-[28px]'>
+            <p className="">Most calendars are designed for teams.</p>
             <p className='hidden md:block'>Slate is designed for freelancers</p>
          </div>
 
@@ -50,13 +50,13 @@ const FeaturesSection = () => {
             </div>
          </div>
 
-         <div className='block lg:flex gap-4 m-13'>
+         <div className='block lg:flex gap-13 m-13'>
             {features.map((feat) =>(
                
-               <div key={feat.id} className='flex-1 aspect-square mt-8 p-4 flex flex-col justify-center text-center items-center'>
+               <div key={feat.id} className='flex-1 aspect-square gap-2.5 p-4  flex flex-col justify-center text-center items-center'>
                   <feat.icon size={50} className="mx-auto mb-4 text-[#2091F9]"/>
-                  <h2 className='text-2xl font-bold text-center mb-2'>{feat.title}</h2>
-                  <p className='text-[#374754] text-lg'>{feat.description}</p>
+                  <h2 className='text-xl leading-7 font-bold tracking-[0.2px] text-center mb-2'>{feat.title}</h2>
+                  <p className='text-[#374754]  leading-6.25 tracking-[0.2px] text-lg'>{feat.description}</p>
                </div>
             ))}
          </div>

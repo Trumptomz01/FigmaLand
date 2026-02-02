@@ -24,11 +24,11 @@ const Footer = () => {
          
             {footerLinks.map((footer, index) => (
                <div className="mb-5" key={index}>
-                  <h3 className="font-bold text-xl mb-6">{footer.title}</h3>
+                  <h3 className="font-bold text-xl leading-7 tracking-[0.1px] mb-6">{footer.title}</h3>
                   <ul className="space-y-4">
                   {footer.links.map((link, linkIndex) => (
                      <li key={linkIndex}>
-                        <Link to="/" className="text-white hover:text-gray-200 font-normal text-sm transition-colors">
+                        <Link to="/" className="text-white hover:text-gray-200 font-normal text-[15px] leading-7 tracking-[0.2px] transition-colors">
                         {link}
                         </Link>
                      </li>
