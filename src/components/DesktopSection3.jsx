@@ -3,7 +3,7 @@ import sec3Img  from "..//assets/sec3Img.png";
 
 const DesktopSection3 = () => {
   return (
-      <section className='flex mb-10 mt-7 justify-center items-center m-auto p-5 '>
+      <section className='flex mb-10 mt-7 max-w-325    justify-center items-center m-auto p-5 '>
          <div className='flex flex-col lg:flex-row max-w-4xl gap-15'>
              {/* letf side */}
             <div className="flex-1 max-w-xl text-center md:text-left">

@@ -6,7 +6,7 @@ import map from '../assets/mapImg.png';
 
 const ContactSection = () => {
    return (
-     <section className="flex flex-col justify-center mt-8 items-center m-auto p-8">
+     <section className=" max-w-325 flex flex-col justify-center mt-8 items-center m-auto p-8">
        <div className="flex text-[#374754] flex-col justify-center items-center m-3">
          <h2 className="text-[48px] leading-13.75 tracking-[0.2px] mb-4">Contact Us</h2>
           <p className="leading-10 text-[28px] tracking-[0.2px] text-center">

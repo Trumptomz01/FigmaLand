@@ -5,7 +5,7 @@ const DesktopSection4 = () => {
    const [emailInput, setEmailInput] = useState('');
 
   return (
-      <section className="max-w-6xl  flex justify-center item-center mx-auto px-4 py-28">
+      <section className="max-w-325  flex justify-center item-center mx-auto px-4 py-28">
          <div className="flex p-10 w-full flex-col lg:flex-row items-center md:justify-center text-center  md:items-start  gap-15">
 
             <div className='block md:hidden'>

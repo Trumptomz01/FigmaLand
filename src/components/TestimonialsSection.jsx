@@ -4,7 +4,7 @@ import Avatar from '../assets/avatar.png'
 
 const TestimonialsSection = () => {
    return (
-      <section className='p-5 flex flex-col space-y-4  justify-center text-center items-center m-auto mb-10'>
+      <section className='p-5 flex max-w-325  flex-col space-y-4  justify-center text-center items-center m-auto mb-10'>
          <h1 className='text-center  text-[48px] text-[#252B42] leading-13.75 tracking-[0.2px] '>Testimonials</h1>
          <div className=''>
             <div className='max-w-[35%] m-auto mt-4 p-4'>

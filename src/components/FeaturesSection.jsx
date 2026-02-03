@@ -27,7 +27,7 @@ const FeaturesSection = () => {
    ];
 
   return (
-      <section className='flex space-y-8 flex-col p-3 md: justify-center items-center '>
+      <section className='flex space-y-8 flex-col p-3 max-w-325 m-auto md: justify-center items-center '>
          <div className=''>
             <h1 className='text-[48px] tracking-[0.2px] leading-13.75'>Features</h1>
          </div>
